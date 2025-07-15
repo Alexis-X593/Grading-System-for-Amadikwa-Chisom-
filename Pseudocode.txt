@@ -1,0 +1,22 @@
+BEGIN
+  PROMPT user to input student score
+  CONVERT score to integer
+
+  IF score is between 70 and 100 INCLUSIVE
+    grade = 'A'
+  ELSE IF score is between 60 and 69
+    grade = 'B'
+  ELSE IF score is between 50 and 59
+    grade = 'C'
+  ELSE IF score is between 45 and 49
+    grade = 'D'
+  ELSE IF score is between 40 and 44
+    grade = 'E'
+  ELSE IF score is below 40
+    grade = 'F'
+  ELSE
+    PRINT "Invalid score"
+
+  IF score is valid
+    PRINT "Your grade is", grade
+END
